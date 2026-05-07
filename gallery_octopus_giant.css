@@ -1,0 +1,334 @@
+div#container
+{
+   width: 1050px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #000000;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 11px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #00FF00;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #C0C0C0;
+}
+a:active
+{
+   color: #32CD32;
+}
+a:hover
+{
+   color: #005500;
+   text-decoration: underline;
+}
+#Extension2
+{
+   margin: 0;
+}
+#Extension2 img 
+{
+    margin: 0 auto;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GoMenu1-select
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   background-color: #005500;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#GoMenu1-select
+{
+   float: left;
+   height: 100%;
+   width: 100%;
+}
+#GoMenu1
+{
+   height: 100%;
+   margin: 0;
+}
+#wb_EDExplore 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_EDExplore div
+{
+   text-align: center;
+}
+#GreenBar
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_PhotoJournal
+{
+   vertical-align: top;
+}
+#PhotoJournal
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SpeciesGallery
+{
+   vertical-align: top;
+}
+#SpeciesGallery
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SpeciesID
+{
+   vertical-align: top;
+}
+#SpeciesID
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_LocalSites
+{
+   vertical-align: top;
+}
+#LocalSites
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_TripReports
+{
+   vertical-align: top;
+}
+#TripReports
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_DiveVideos
+{
+   vertical-align: top;
+}
+#DiveVideos
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Commentaries
+{
+   vertical-align: top;
+}
+#Commentaries
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_WolfEDBanner
+{
+   vertical-align: top;
+}
+#WolfEDBanner
+{
+   border: 1px solid #009300;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_AboutED
+{
+   vertical-align: top;
+}
+#AboutED
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_ContactED
+{
+   vertical-align: top;
+}
+#ContactED
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Extension1
+{
+   margin: 0;
+}
+#Extension1 img 
+{
+    margin: 0 auto;
+}
+#wb_Text2332 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2332 div
+{
+   text-align: left;
+}
+#Button1
+{
+   border: 1px solid #008000;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: url('images/gallery_octopus_giant_Button1_bkgrnd.png');
+   background-repeat: repeat-x;
+   background-position: left top;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+   padding: 0;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+}
+#Button1:focus
+{
+   outline: 0;
+}

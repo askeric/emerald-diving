@@ -1,27 +1,27 @@
 {
-  "startedAt": "2026-05-07T06:52:41.650Z",
-  "stagingRaw": "C:\\Users\\jessi\\Documents\\GitHub\\main\\emerald-live-recovery\\staging-raw-live",
-  "discoveredCandidates": 5794,
+  "startedAt": "2026-05-07T12:41:46.439Z",
+  "stagingRaw": "C:\\Users\\jessi\\Documents\\GitHub\\main\\emerald-diving-upload",
+  "discoverOnly": false,
+  "sourceStats": {
+    "scannedFiles": 375,
+    "skippedByExt": 5449,
+    "readFailures": 0
+  },
+  "discoveredCandidates": 6187,
   "maxFetches": 1000000,
-  "fetched": 4007,
-  "alreadyPresent": 1783,
+  "targetRel": "1000000",
+  "targetStatus": {
+    "discovered": false,
+    "discoveredFrom": null,
+    "url": null,
+    "alreadyPresent": false,
+    "localPath": "C:\\Users\\jessi\\Documents\\GitHub\\main\\emerald-diving-upload\\1000000"
+  },
+  "fetched": 392,
+  "alreadyPresent": 5793,
   "skippedOverLimit": 0,
-  "failed": 4,
+  "failed": 2,
   "failures": [
-    {
-      "rel": "images/Crab_Pygmy-Rock_Whale_SJ_Channel_IMG_6292.jpg",
-      "url": "https://emeralddiving.com/images/Crab_Pygmy-Rock_Whale_SJ_Channel_IMG_6292.jpg",
-      "discoveredFrom": "gallery_crabs_other.html",
-      "status": 404,
-      "reason": "HTTP 404"
-    },
-    {
-      "rel": "images/Greenling_Kelp_LISJ_P8230533.jpg",
-      "url": "https://emeralddiving.com/images/Greenling_Kelp_LISJ_P8230533.jpg",
-      "discoveredFrom": "gallery_greenlings.html",
-      "status": 404,
-      "reason": "HTTP 404"
-    },
     {
       "rel": "images/Additional Images.jpg",
       "url": "https://emeralddiving.com/images/Additional%20Images.jpg",
@@ -37,5 +37,5 @@
       "reason": "HTTP 404"
     }
   ],
-  "finishedAt": "2026-05-07T06:57:35.625Z"
+  "finishedAt": "2026-05-07T12:42:12.409Z"
 }
