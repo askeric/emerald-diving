@@ -1,5 +1,568 @@
+<!doctype html>
 <html>
-    <body>
-        test
-    </body>
+<head>
+<meta charset="utf-8">
+<title>Emerald Diving</title>
+<meta name="generator" content="WYSIWYG Web Builder - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Emerald_Diving.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.7.2.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<script src="wwb18.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_PanelText1').addClass('visibility-hidden');
+   $('#wb_PanelImage1').addClass('visibility-hidden');
+   $('#wb_PanelImage2').addClass('visibility-hidden');
+   $('#wb_PanelImage3').addClass('visibility-hidden');
+   $('#wb_PanelText2').addClass('visibility-hidden');
+   $('#wb_PanelText3').addClass('visibility-hidden');
+   $('#wb_Image7').addClass('visibility-hidden');
+   $('#wb_Text3').addClass('visibility-hidden');
+   $('#wb_Image8').addClass('visibility-hidden');
+   $('#wb_Text4').addClass('visibility-hidden');
+   $('#wb_Image9').addClass('visibility-hidden');
+   $('#wb_Text9').addClass('visibility-hidden');
+   var Carousel1Opts =
+   {
+      delay: 5000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      scalemode: 1,
+      pagination: true,
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").on('beforeActivate', function(event, index)
+   {
+      switch(index)
+      {
+            case 0:
+               AnimateCss('wb_Title1', 'transform-scale-in', 400, 500);
+               break;
+            case 1:
+               AnimateCss('wb_Title2', 'transform-scale-in', 500, 500);
+               break;
+            case 2:
+               AnimateCss('wb_Heading1', 'transform-scale-in', 500, 500);
+               break;
+            case 3:
+               AnimateCss('wb_Heading2', 'transform-scale-in', 400, 500);
+               break;
+            case 4:
+               AnimateCss('wb_Heading3', 'transform-scale-in', 500, 500);
+               break;
+            case 5:
+               AnimateCss('wb_Heading6', 'transform-scale-in', 500, 500);
+               break;
+            case 6:
+               AnimateCss('wb_Heading7', 'transform-scale-in', 500, 500);
+               break;
+            case 7:
+               AnimateCss('wb_Heading9', 'transform-scale-in', 500, 500);
+               break;
+            case 8:
+               AnimateCss('wb_Heading10', 'transform-scale-in', 500, 500);
+               break;
+            case 9:
+               AnimateCss('wb_Heading11', 'transform-scale-in', 500, 500);
+               break;
+      }
+   });
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+   $("a[href*='#Features']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_Features').offset().top }, 300, 'linear');
+   });
+   function onScrollPanelText1()
+   {
+      var $obj = $("#wb_PanelText1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelText1', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelText1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelText1').inViewPort(true))
+   {
+      $('#wb_PanelText1').addClass("in-viewport");
+   }
+   onScrollPanelText1();
+   $(window).scroll(function(event)
+   {
+      onScrollPanelText1();
+   });
+   function onScrollPanelImage1()
+   {
+      var $obj = $("#wb_PanelImage1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelImage1', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelImage1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelImage1').inViewPort(true))
+   {
+      $('#wb_PanelImage1').addClass("in-viewport");
+   }
+   onScrollPanelImage1();
+   $(window).scroll(function(event)
+   {
+      onScrollPanelImage1();
+   });
+   function onScrollPanelImage2()
+   {
+      var $obj = $("#wb_PanelImage2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelImage2', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelImage2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelImage2').inViewPort(true))
+   {
+      $('#wb_PanelImage2').addClass("in-viewport");
+   }
+   onScrollPanelImage2();
+   $(window).scroll(function(event)
+   {
+      onScrollPanelImage2();
+   });
+   function onScrollPanelImage3()
+   {
+      var $obj = $("#wb_PanelImage3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelImage3', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelImage3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelImage3').inViewPort(true))
+   {
+      $('#wb_PanelImage3').addClass("in-viewport");
+   }
+   onScrollPanelImage3();
+   $(window).scroll(function(event)
+   {
+      onScrollPanelImage3();
+   });
+   function onScrollPanelText2()
+   {
+      var $obj = $("#wb_PanelText2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelText2', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelText2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelText2').inViewPort(true))
+   {
+      $('#wb_PanelText2').addClass("in-viewport");
+   }
+   onScrollPanelText2();
+   $(window).scroll(function(event)
+   {
+      onScrollPanelText2();
+   });
+   function onScrollPanelText3()
+   {
+      var $obj = $("#wb_PanelText3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_PanelText3', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_PanelText3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_PanelText3').inViewPort(true))
+   {
+      $('#wb_PanelText3').addClass("in-viewport");
+   }
+   onScrollPanelText3();
+   $(window).scroll(function(event)
+   {
+      onScrollPanelText3();
+   });
+   function onScrollImage7()
+   {
+      var $obj = $("#wb_Image7");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image7', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image7', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image7').inViewPort(true))
+   {
+      $('#wb_Image7').addClass("in-viewport");
+   }
+   onScrollImage7();
+   $(window).scroll(function(event)
+   {
+      onScrollImage7();
+   });
+   function onScrollText3()
+   {
+      var $obj = $("#wb_Text3");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text3', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text3', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text3').inViewPort(true))
+   {
+      $('#wb_Text3').addClass("in-viewport");
+   }
+   onScrollText3();
+   $(window).scroll(function(event)
+   {
+      onScrollText3();
+   });
+   function onScrollImage8()
+   {
+      var $obj = $("#wb_Image8");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image8', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image8', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image8').inViewPort(true))
+   {
+      $('#wb_Image8').addClass("in-viewport");
+   }
+   onScrollImage8();
+   $(window).scroll(function(event)
+   {
+      onScrollImage8();
+   });
+   function onScrollText4()
+   {
+      var $obj = $("#wb_Text4");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text4', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text4').inViewPort(true))
+   {
+      $('#wb_Text4').addClass("in-viewport");
+   }
+   onScrollText4();
+   $(window).scroll(function(event)
+   {
+      onScrollText4();
+   });
+   function onScrollImage9()
+   {
+      var $obj = $("#wb_Image9");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image9', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text9', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image9').inViewPort(true))
+   {
+      $('#wb_Image9').addClass("in-viewport");
+   }
+   onScrollImage9();
+   $(window).scroll(function(event)
+   {
+      onScrollImage9();
+   });
+   function onScrollText9()
+   {
+      var $obj = $("#wb_Text9");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(true))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Text9', 'animate-fade-in-up', 500, 1000);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Text9', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Text9').inViewPort(true))
+   {
+      $('#wb_Text9').addClass("in-viewport");
+   }
+   onScrollText9();
+   $(window).scroll(function(event)
+   {
+      onScrollText9();
+   });
+});
+</script>
+</head>
+<body>
+<script>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script>
+try {
+var pageTracker = _gat._getTracker("UA-15987748-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<div id="container">
+<!-- GA -->
+<div id="Html1" style="position:absolute;left:39px;top:772px;width:114px;height:65px;z-index:28">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-15987748-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text1">
+<span style="color:#00C024;font-family:'Comic Sans MS';font-size:19px;"><em>Emerald Diving<br></em></span><span style="color:#00C024;font-family:'Comic Sans MS';font-size:12px;"><em>Discover the Salish Sea</em></span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Breadcrumb1" style="display:inline-block;width:100%;z-index:1;vertical-align:top;">
+<ul id="Breadcrumb1">
+<li><a href="./id_intro.html">Species ID</a></li>
+<li><a href="./gallery_intro.html">Galleries</a></li>
+<li><a href="./local_sites.html">Dive Sites</a></li>
+<li><a href="./composite_gallery.html">Montages</a></li>
+<li><a href="./tropic_diving_galleries.html">Tropical</a></li>
+<li><a href="./dive_videos.html">Video</a></li>
+<li><a href="./about.html">About</a></li>
+<li><a href="./commentaries.html">Editorials</a></li>
+</ul>
+
+</div>
+</div>
+<div class="col-3">
+<div id="wb_Breadcrumb3" style="display:inline-block;width:100%;z-index:2;vertical-align:top;">
+<ul id="Breadcrumb3">
+<li><a href="mailto: emeralddiving@gmail.com"><i class="fa fa-envelope-o">&nbsp;</i>  Email</a></li>
+</ul>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Carousel1" style="position:absolute;left:0px;top:64px;width:1050px;height:512px;z-index:30;overflow:hidden;position:relative;">
+<div id="Carousel1" style="position:absolute;">
+<div class="frame frame-1">
+<div id="wb_Title1" style="position:absolute;left:167px;top:463px;width:717px;height:49px;z-index:3;">
+<h1 id="Title1">Black Rockfish, Slant Rock, Cape Flattery</h1></div>
+</div>
+<div class="frame frame-2">
+<div id="wb_Title2" style="position:absolute;left:1309px;top:463px;width:531px;height:36px;z-index:4;">
+<h1 id="Title2">Butterfly Crab, San Juan Islands</h1></div>
+</div>
+<div class="frame frame-3">
+<div id="wb_Heading1" style="position:absolute;left:2359px;top:463px;width:531px;height:36px;z-index:5;">
+<h1 id="Heading1">Crescent Gunnel, Redondo Beach, Puget Sound</h1></div>
+</div>
+<div class="frame frame-4">
+<div id="wb_Heading2" style="position:absolute;left:3409px;top:464px;width:531px;height:36px;z-index:6;">
+<h1 id="Heading2">Taylor's Sea Hare, Alki Beach, Puget Sound</h1></div>
+</div>
+<div class="frame frame-5">
+<div id="wb_Heading3" style="position:absolute;left:4459px;top:467px;width:531px;height:36px;z-index:7;">
+<h1 id="Heading3">Stubby Squid, Redondo Beach, Puget Sound</h1></div>
+</div>
+<div class="frame frame-6">
+<div id="wb_Heading6" style="position:absolute;left:5509px;top:467px;width:531px;height:36px;z-index:8;">
+<h1 id="Heading6">Bering Hermit, Long Island, San Juan Islands</h1></div>
+</div>
+<div class="frame frame-7">
+<div id="wb_Heading7" style="position:absolute;left:6560px;top:465px;width:531px;height:36px;z-index:9;">
+<h1 id="Heading7">Sea Whip, Flagpole, Hood Canal</h1></div>
+</div>
+<div class="frame frame-8">
+<div id="wb_Heading9" style="position:absolute;left:7610px;top:467px;width:531px;height:36px;z-index:10;">
+<h1 id="Heading9">Blue Heron, Long Island, San Juan Islands</h1></div>
+</div>
+<div class="frame frame-9">
+<div id="wb_Heading10" style="position:absolute;left:8566px;top:463px;width:717px;height:49px;z-index:11;">
+<h1 id="Heading10">Orcas, Strait of Juan De Juca, San Juan Islands</h1></div>
+</div>
+<div class="frame frame-10">
+<div id="wb_Heading11" style="position:absolute;left:9603px;top:463px;width:717px;height:49px;z-index:12;">
+<h1 id="Heading11">Shiner Perch, KVI Tower Reef, Puget Sound</h1></div>
+</div>
+</div>
+<div id="Carousel1_back"><a><img alt="Back" width="20" height="30" src="images/arrow-prev-white.png"></a></div>
+<div id="Carousel1_next"><a><img alt="Next" width="20" height="30" src="images/arrow-next-white.png"></a></div>
+</div>
+<div id="wb_Divider3">
+<div id="Divider3">
+<div id="wb_Heading4" style="display:inline-block;width:951px;z-index:13;">
+<h2 id="Heading4">Welcome to Emerald Diving!<br>Dive in and discover the many wonders of the Salish Sea.  <br></h2>
+</div>
+</div>
+</div>
+<div id="wb_Features">
+<div id="Features">
+<div class="row">
+<div class="col-1">
+<div id="wb_PanelImage1" style="display:inline-block;width:100%;height:auto;z-index:14;">
+<a href="./composite_gallery.html"><img src="images/Montage_Thumb.jpg" id="PanelImage1" alt="" width="145" height="97"></a>
+</div>
+<div id="wb_PanelText1">
+<span style="color:#000000;font-family:Arial;font-size:20px;"><strong>Montage<br>Imagery<br></strong></span><span style="color:#000000;font-family:Arial;font-size:11px;"><br></span><span style="color:#000000;font-family:Arial;font-size:15px;">Over 100 customized composite images commemorating&nbsp; diving adventures in the Salish Sea&nbsp; and around the world, including the Red Sea.</span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_PanelImage2" style="display:inline-block;width:100%;height:auto;z-index:16;">
+<a href="./id_intro.html"><img src="images/Greenling_Kelp_WaadahNB_8528.jpg" id="PanelImage2" alt="" width="145" height="97"></a>
+</div>
+<div id="wb_PanelText2">
+<span style="color:#000000;font-family:Arial;font-size:20px;"><strong> Species Identification</strong></span><span style="color:#000000;font-family:Arial;font-size:21px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:11px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;">Imagery and descriptions of more than 500 species of fish, invertebrates, birds, and mammals found in or on PNW waters and shorelines.</span>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_PanelImage3" style="display:inline-block;width:100%;height:auto;z-index:18;">
+<a href="./gallery_intro.html"><img src="images/Octopus_Red_3T_P9240903.jpg" id="PanelImage3" alt="" width="145" height="97"></a>
+</div>
+<div id="wb_PanelText3">
+<span style="color:#000000;font-family:Arial;font-size:20px;"><strong>Species Galleries<br></strong></span><span style="color:#000000;font-family:Arial;font-size:11px;"><br></span><span style="color:#000000;font-family:Arial;font-size:15px;">Extensive library of +5000 images catalogued on-line of Salish Sea marine life, organized by family.&nbsp; Slideshow and thumbnail presentation.</span>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_Image7" style="display:inline-block;width:100%;height:auto;z-index:20;">
+<a href="./local_sites.html"><img src="images/Duncan_Rock_North_HP.jpg" id="Image7" alt="" width="145" height="97"></a>
+</div>
+<div id="wb_Text3">
+<span style="color:#000000;font-family:Arial;font-size:20px;"><strong>Dive Site Information</strong></span><span style="color:#000000;font-family:Arial;font-size:21px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:11px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;">Location and description of the best 44 boat and shore dives in Washington state - including Puget Sound, the San Juan Islands, and Cape Flattery.</span>
+</div>
+</div>
+<div class="col-5">
+<div id="wb_Image8" style="display:inline-block;width:100%;height:auto;z-index:22;">
+<a href="./tropic_diving_galleries.html"><img src="images/Sea-Turtle_Green_MalaWharfHI_9985.jpg" id="Image8" alt="" width="145" height="97"></a>
+</div>
+<div id="wb_Text4">
+<span style="color:#000000;font-family:Arial;font-size:20px;"><strong>Tropical Galleries</strong></span><span style="color:#000000;font-family:Arial;font-size:21px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:11px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;">Stay warm with tropical imagery from the Red Sea, Hawaii, and the Bahamas.&nbsp; Green sea turtles, sharks, and tropical fish rue the day!<br></span>
+</div>
+</div>
+<div class="col-6">
+<div id="wb_Image9" style="display:inline-block;width:100%;height:auto;z-index:24;">
+<a href="./dive_videos.html"><img src="images/6gill-head2.jpg" id="Image9" alt="" width="145" height="97"></a>
+</div>
+<div id="wb_Text9">
+<span style="color:#000000;font-family:Arial;font-size:20px;"><strong>Video Library<br></strong></span><span style="color:#000000;font-family:Arial;font-size:11px;"><strong><br></strong></span><span style="color:#000000;font-family:Arial;font-size:15px;">Dive with Puget Sound sixgill sharks, tiger and lemon sharks in the Bahamas, giant mantas in the Socorros, and steller sea lions off Vancouver Island.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_FlexBoxContainer1">
+<div id="FlexBoxContainer1">
+<div id="wb_Heading5" style="display:inline-block;width:937px;z-index:26;">
+<h2 id="Heading5">This website is solely dedicated to the education, preservation, and appreciation of the unique ecosystm that encompasses Washington and British Columbia coastal and inland marine waters.  This is not a commercial site, however if you would like to purchase imagery usage rights, please email emeralddiving@gmail.com.<br></h2>
+</div>
+</div>
+</div>
+<div id="wb_Footer">
+<div id="Footer">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text2">
+<span style="color:#000000;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;">Copyright © Emerald Diving 2018</span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
 </html>

@@ -1,0 +1,520 @@
+div#container
+{
+   width: 1050px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #000000;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 11px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+a
+{
+   color: #00FF00;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #C0C0C0;
+}
+a:active
+{
+   color: #32CD32;
+}
+a:hover
+{
+   color: #005500;
+   text-decoration: underline;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GoMenu1-select
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   background-color: #005500;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 11px;
+}
+#GoMenu1-select
+{
+   float: left;
+   height: 100%;
+   width: 100%;
+}
+#GoMenu1
+{
+   height: 100%;
+   margin: 0;
+}
+#wb_EDExplore 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_EDExplore div
+{
+   text-align: center;
+}
+#GreenBar
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_PhotoJournal
+{
+   vertical-align: top;
+}
+#PhotoJournal
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SpeciesGallery
+{
+   vertical-align: top;
+}
+#SpeciesGallery
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_SpeciesID
+{
+   vertical-align: top;
+}
+#SpeciesID
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_LocalSites
+{
+   vertical-align: top;
+}
+#LocalSites
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_TripReports
+{
+   vertical-align: top;
+}
+#TripReports
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_DiveVideos
+{
+   vertical-align: top;
+}
+#DiveVideos
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Commentaries
+{
+   vertical-align: top;
+}
+#Commentaries
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_WolfEDBanner
+{
+   vertical-align: top;
+}
+#WolfEDBanner
+{
+   border: 1px solid #009300;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_AboutED
+{
+   vertical-align: top;
+}
+#AboutED
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_ContactED
+{
+   vertical-align: top;
+}
+#ContactED
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image1
+{
+   vertical-align: top;
+}
+#Image1
+{
+   border: 1px solid #666666;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text2332 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2332 div
+{
+   text-align: left;
+}
+#PhotoGallery1
+{
+   border-spacing: 0px;
+   font-size: 0;
+   width: 100%;
+   height: 100%;
+   margin: 0;
+}
+#PhotoGallery1 .thumbnail
+{
+   padding: 3px 3px 3px 3px;
+   text-align: center;
+   vertical-align: top;
+}
+#PhotoGallery1 .thumbnail img
+{
+   border: 1px #006400 solid;
+   box-sizing: border-box;
+   border-radius: 0px;
+}
+#PhotoGallery1_img0
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img1
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img2
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img3
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img4
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img5
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img6
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img7
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img8
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img9
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img10
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img11
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img12
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img13
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img14
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img15
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img16
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img17
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img18
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img19
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img20
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img21
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img22
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img23
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img24
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img25
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img26
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img27
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img28
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img29
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img30
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img31
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img32
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img33
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img34
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img35
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img36
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img37
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img38
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img39
+{
+   width: 135px;
+   height: 98px;
+}
+#PhotoGallery1_img40
+{
+   width: 135px;
+   height: 98px;
+}

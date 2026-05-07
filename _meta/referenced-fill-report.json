@@ -1,0 +1,41 @@
+{
+  "startedAt": "2026-05-07T06:52:41.650Z",
+  "stagingRaw": "C:\\Users\\jessi\\Documents\\GitHub\\main\\emerald-live-recovery\\staging-raw-live",
+  "discoveredCandidates": 5794,
+  "maxFetches": 1000000,
+  "fetched": 4007,
+  "alreadyPresent": 1783,
+  "skippedOverLimit": 0,
+  "failed": 4,
+  "failures": [
+    {
+      "rel": "images/Crab_Pygmy-Rock_Whale_SJ_Channel_IMG_6292.jpg",
+      "url": "https://emeralddiving.com/images/Crab_Pygmy-Rock_Whale_SJ_Channel_IMG_6292.jpg",
+      "discoveredFrom": "gallery_crabs_other.html",
+      "status": 404,
+      "reason": "HTTP 404"
+    },
+    {
+      "rel": "images/Greenling_Kelp_LISJ_P8230533.jpg",
+      "url": "https://emeralddiving.com/images/Greenling_Kelp_LISJ_P8230533.jpg",
+      "discoveredFrom": "gallery_greenlings.html",
+      "status": 404,
+      "reason": "HTTP 404"
+    },
+    {
+      "rel": "images/Additional Images.jpg",
+      "url": "https://emeralddiving.com/images/Additional%20Images.jpg",
+      "discoveredFrom": "id_shrimps.html",
+      "status": 404,
+      "reason": "HTTP 404"
+    },
+    {
+      "rel": "a.html",
+      "url": "https://emeralddiving.com/a",
+      "discoveredFrom": "jquery-1.12.4.min.js",
+      "status": 404,
+      "reason": "HTTP 404"
+    }
+  ],
+  "finishedAt": "2026-05-07T06:57:35.625Z"
+}

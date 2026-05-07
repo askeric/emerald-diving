@@ -1,0 +1,11 @@
+{
+  "startedAt": "2026-05-07T05:54:20.104Z",
+  "updatedAt": "2026-05-07T06:35:26.242Z",
+  "cursor": 3100,
+  "attempted": 4042,
+  "downloaded": 2205,
+  "failed": 1837,
+  "skippedKnownSuccess": 2190,
+  "totalUnique": 3132,
+  "durationSeconds": 2466
+}
