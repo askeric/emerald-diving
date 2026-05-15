@@ -1,24 +1,16 @@
 {
-  "startedAt": "2026-05-07T12:41:46.439Z",
-  "stagingRaw": "C:\\Users\\jessi\\Documents\\GitHub\\main\\emerald-diving-upload",
+  "startedAt": "2026-05-15T18:11:01.555Z",
+  "stagingRaw": "C:\\Users\\jessi\\Documents\\GitHub\\emerald-diving",
   "discoverOnly": false,
   "sourceStats": {
-    "scannedFiles": 375,
-    "skippedByExt": 5449,
+    "scannedFiles": 397,
+    "skippedByExt": 5945,
     "readFailures": 0
   },
-  "discoveredCandidates": 6187,
+  "discoveredCandidates": 6369,
   "maxFetches": 1000000,
-  "targetRel": "1000000",
-  "targetStatus": {
-    "discovered": false,
-    "discoveredFrom": null,
-    "url": null,
-    "alreadyPresent": false,
-    "localPath": "C:\\Users\\jessi\\Documents\\GitHub\\main\\emerald-diving-upload\\1000000"
-  },
-  "fetched": 392,
-  "alreadyPresent": 5793,
+  "fetched": 0,
+  "alreadyPresent": 6367,
   "skippedOverLimit": 0,
   "failed": 2,
   "failures": [
@@ -37,5 +29,5 @@
       "reason": "HTTP 404"
     }
   ],
-  "finishedAt": "2026-05-07T12:42:12.409Z"
+  "finishedAt": "2026-05-15T18:11:02.355Z"
 }
